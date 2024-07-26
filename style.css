@@ -1,0 +1,229 @@
+body {
+    background-color: white
+}
+
+h1 {
+
+  color: #00c2cb;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 15px;
+
+}
+
+
+
+h4 {
+  color: #00c2cb;
+
+}
+
+.headerblog {
+  font-family: Arial;
+  color: #00c2cb;
+  text-align: center;
+  
+}
+
+.youtubepos {
+  font-family: Arial;
+  position: absolute;
+  right: 700px;
+  background-color: #494a57;
+
+}
+
+.twitchpos {
+  font-family: Arial;
+  position: absolute;
+  right: 645px;
+  background-color: #494a57;
+
+}
+p {
+  font-size: 15px;
+  color: #e0ffff;
+  margin-bottom: 15px;
+  line-height: 1.5rem;
+  margin-bottom: 15px;
+}
+
+button {
+    
+    font-family: Arial;
+    background-color: #494a57;
+    box-shadow: 2.5px 2.5px 5px #494a57;
+    border-radius:5%
+}
+
+
+
+.button_pos {
+    position: absolute;
+    right : 620px;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    font-family: Arial;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    font-family: Arial;
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    font-family: Arial;
+    background-color: #4f4f4f;
+    color: white;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+
+    background: #22232e;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul{
+    list-style: disc;
+    color: #e0ffff;
+  }
+  section {
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+  }
+  .container img {
+    width: 420px;
+  }
+  .text {
+    display: block;
+    padding: 40px 40px;
+    width: 450px;
+  }
+  .text h1 {
+    color: #00c2cb;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .text p {
+    font-size: 15px;
+    color: #e0ffff;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .text .input-box{
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  .input-box input{
+    width: 85%;
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: #22232e;
+    border-radius: 5px 5px 0px 0px;
+    border: none;
+    outline: none;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+  .menu li a{
+    display: flex;
+    font-size: 1rem;
+    color: #00c2cb;
+    transition: 0.1s;
+  }
+  .result-box{
+    width: 85%;
+  }
+  .result-box ul {
+    border-top: 2px solid #42455a;
+    padding: 10px 5px;
+    background: #fff;
+  }
+  .result-box ul li {
+    list-style: none;
+    border-radius: 3px ;
+    padding: 10px 5px;
+    cursor: pointer;
+    color: #22232e;
+  }
+  .result-box ul li:hover {
+    background-color: #e0ffff;
+  }
+  .result-box {
+    max-height: 100px;
+    overflow: scroll;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .result-box li a{
+    color: #22232e;
+  }
+  .result-box li:focus a{
+    color: #e0ffff;
+  }
+  @media screen and (max-width:600px) {
+    .container{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .text,.image{
+      width: 100%;
+    } 
+    .container{
+      min-width: 200px;
+      padding: 40px 0px;
+    }
+    .text{
+      display: block;
+      width: 100%;
+      padding: 20px 40px;
+    }
+    .image{
+      display: flex;
+      width: 200px;
+      align-self: center;
+      justify-content: center;
+      margin: auto;
+    }
+  }
+
+
